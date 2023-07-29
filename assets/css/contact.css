@@ -307,7 +307,7 @@ textarea {
 
 /*section-5*/
 .sec-five {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.613), rgba(0, 0, 0, 0.653)), url("home page/section 5 back image.png");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.613), rgba(0, 0, 0, 0.653)), url("/assets/images/section 5 back image.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
