@@ -607,7 +607,7 @@ button {
         align-items: center;
 }
 
-.oppening-hour {
+.opening-hour {
         width: 30%;
         height: 100px;
         display: flex;
@@ -621,7 +621,7 @@ button {
         font-family: 'Jost', sans-serif;
 }
 
-.oppening-hour .fa-solid:hover {
+.opening-hour .fa-solid:hover {
         color: #e2a76d;
         cursor: pointer;
 }
@@ -655,7 +655,7 @@ button {
         border: 1px solid #e2a76d;
 }
 
-.oppening-hour .fa-solid,
+.opening-hour .fa-solid,
 .location .fa-regular {
         color: #C97435;
         font-size: 40px;
@@ -863,7 +863,7 @@ button {
         .last-footer    {
                 padding-top:0;
         }
-        .oppening-hour {
+        .opening-hour {
                 width: 32%;
                 height: 100px;
                 padding: 2px 0;
@@ -1215,7 +1215,7 @@ button {
                 width: 100px;
         }
 
-        .oppening-hour {
+        .opening-hour {
                 width: 90%;
                 height: 70px;
                 padding: 0;
