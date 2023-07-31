@@ -32,7 +32,7 @@ h5 {
         color: #FFDBB8;
         letter-spacing: 1px;
         word-spacing: 1px;
-        font-size: 20px;
+        font-size: 15px;
 }
 
 h4 {
@@ -49,7 +49,7 @@ h3 {
 }
 
 h2 {
-        font-size: 50px;
+        font-size: 40px;
         color: #C97435;
         letter-spacing: 1px;
         word-spacing: 2px;
@@ -463,35 +463,31 @@ textarea {
         .container {
                 width: 90%;
                 margin: 0 auto;
-                padding: 60px 0;
-                display: flex;
+                padding: 50px 0;
+                overflow: hidden;
         }
 
         .f-container {
                 width: 100%;
         }
-
-        ul {
-                gap: 30px;
-        }
-
         h1 {
                 font-size: 50px;
-                line-height: 32px;
                 position: absolute;
                 left: 45%;
-                z-index: 1;
+                z-index: 4;
         }
 
         h2 {
-                font-size: 22px;
+                font-size: 35px;
 
         }
 
         h3 {
                 font-size: 20px;
         }
-
+        h4      {
+                font-size: 19px;
+        }
         h5 {
                 font-size: 15px;
         }
@@ -499,7 +495,11 @@ textarea {
         p {
                 font-size: 14px;
         }
-
+        /* navigation */
+        ul {
+                gap: 30px;
+        }
+        /* sectoin-1 */
         .sec-1 {
                 height: 700px;
                 position: relative;
@@ -534,7 +534,7 @@ textarea {
                 position: absolute;
                 bottom: 27%;
         }
-
+        /* section-2 */
         .box {
                 display: flex;
                 justify-content: space-between;
@@ -545,7 +545,7 @@ textarea {
                 width: 30%;
                 height: 200px;
         }
-
+        /* section-3 */
         .part-1 {
                 width: 50%;
                 display: flex;
@@ -581,20 +581,17 @@ textarea {
         .feedback {
                 width: 350px;
         }
-
+        /* section-5 */
+        .table  {
+                margin-bottom:15px;
+        }
         /* last-footer */
         .last-footer {
-                padding-top: 0
-        }
-
-        .line-10-1,
-        .line-10-3 {
-
-                height: 2px;
+                padding-top: 0;
         }
 
         .oppening-hour {
-                padding: 5px 2px;
+                padding: 10px 8px;
         }
 
         .location {
@@ -602,12 +599,12 @@ textarea {
         }
 
         .last-details p {
-                font-size: 10px;
+                font-size: 12px;
         }
 
         .oppening-hour .fa-solid,
         .location .fa-regular {
-                font-size: 15px;
+                font-size: 20px;
         }
 
         .fa-brands {
@@ -618,16 +615,13 @@ textarea {
 @media screen and (max-width:480px) {
         .logo img {
                 width: 60px;
-
-
         }
-
         .hamburger {
                 display: block;
                 cursor: pointer;
                 position: absolute;
-                top: 0;
-                right: 0;
+                top: 5%;
+                right: 1%;
                 padding: 15px;
         }
 
@@ -660,7 +654,7 @@ textarea {
         .container {
                 width: 90%;
                 margin: 0 auto;
-                padding: 30px 0;
+                padding: 20px 0;
                 height: auto;
         }
 
@@ -668,19 +662,15 @@ textarea {
                 width: 100%;
         }
 
-        h5 {
-                font-size: 15px;
-        }
 
         h1 {
                 font-size: 26px;
-                line-height: 28px;
                 position: absolute;
                 left: 0;
         }
 
         h2 {
-                font-size: 20px;
+                font-size: 25px;
         }
 
         h3 {
@@ -688,13 +678,23 @@ textarea {
         }
 
         h4 {
+                font-size: 18px;
+        }
+
+        h5 {
                 font-size: 15px;
         }
-
         p {
-                font-size: 16px;
+                font-size: 12px;
         }
-
+        .button {
+                width: 130px;
+                height: 50px;
+                padding: 13px 0 ;
+                font-size: 13px;
+                text-align: center;
+        }
+        /* section-1 */
         .sec-1 {
                 height: 550px;
                 position: relative;
@@ -742,12 +742,13 @@ textarea {
                 position: absolute;
                 bottom: 0;
         }
-
+        /* section-2 */
         .box {
                 width: 100%;
                 display: flex;
                 flex-direction: column;
                 gap: 40px;
+                overflow: hidden;
         }
 
         .box_details {
@@ -756,7 +757,7 @@ textarea {
                 padding: 13px 0;
                 gap: 30px;
         }
-
+        /* section-3 */
         .sec-3 {
                 flex-direction: column;
                 gap: 20px;
@@ -787,7 +788,7 @@ textarea {
                 height: 100px;
         }
 
-        .button {
+        button {
                 float: center;
         }
 
@@ -799,55 +800,63 @@ textarea {
                 width: 100%;
                 height: 400px;
         }
-
-        .sec-5 {
-                height: 500px;
+        /* section-5 */
+        .table {
+                margin-bottom: 40px;
         }
 
         .opening-time {
-                width: 380px;
+                width: 300px;
                 height: 400px;
-                padding-right: 20px;
-                gap: 25px;
+                padding-top: 50px 0;
         }
 
-        .ul-list p {
-                margin: 10px 0;
+        .opening-time h3 {
+                text-align: center;
         }
 
+        .ul-list li {
+                font-size: 12px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+        }
+
+        /* last-footer */
+        .line-10        {
+                padding:0;
+        }
         .line-10-1,
         .line-10-3 {
-                width: 30%;
-                margin: 0 auto;
+                width: 110px;
                 height: 2px;
         }
 
         .line-10-2 {
-                width: 20%;
-                height: 60px;
+                width: 62px;
+                height: 52px;
         }
 
         .last-details {
+                display: flex;
                 flex-direction: column;
         }
 
-        .oppening-hour,
-        .location-footer,
+        .oppening-hour {
+                width: 100%;
+                height: 80px;
+        }
+
+        .location {
+                width: 100%;
+                height: 80px;
+                padding: 0 30px 0 30px;
+        }
+
         .last-icons {
                 width: 100%;
-                height: 100px;
-        }
-
-        .last-details p {
-                font-size: 15px;
-        }
-
-        .oppening-hour .fa-solid,
-        .location .fa-regular {
-                font-size: 30px;
-        }
-
-        .fa-brands {
-                font-size: 25px;
+                height: 80px;
         }
 }

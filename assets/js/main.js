@@ -4,26 +4,7 @@ AOS.init({
     duration: 800,
 });
 
-//  function myfunction(){
-//      var x = document.getElementById("mynav");
-//      if(x.className ===  "nav"){
-//          x.className += "responsive";
-//      }else{
-//          x.className = "nav";
-//         }
-//     }
-// var x = document.getElementById("mynav");
-    
-// var icon = document.querySelector('.myicon');
 
-// icon.addEventListener('click', function () {
-
-//     if (!x.classList.contains('responsive')) {
-//         x.classList.add('responsive');
-//     } else if (x.classList.contains('responsive')) {
-//         x.classList.remove('responsive','container');
-//     }
-// })
 var hamburger = document.querySelector('.hamburger');
 
 var ul = document.querySelector('ul');
@@ -44,7 +25,7 @@ hamburger.addEventListener('click',function(){
     });
     
     $('.owl-carousel').owlCarousel({
-        loop:true,
+        loop:false,
         margin:10,
         nav:true,
         responsive:{

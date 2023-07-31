@@ -53,7 +53,7 @@ h3 {
 }
 
 h2 {
-        font-size: 50px;
+        font-size: 40px;
         color: #C97435;
         letter-spacing: 1px;
         word-spacing: 2px;
@@ -677,8 +677,7 @@ button {
         .container {
                 width: 90%;
                 margin: 0 auto;
-                padding: 60px 0;
-                display: flex;
+                padding: 50px 0;
         }
 
         .f-container {
@@ -688,7 +687,6 @@ button {
         h1 {
                 font-size: 50px;
                 position: absolute;
-                top: 0;
                 left: 45%;
                 z-index: 1;
         }
@@ -702,11 +700,11 @@ button {
         }
 
         h4 {
-                font-size: 25px;
+                font-size: 19px;
         }
 
         h5 {
-                font-size: 18px;
+                font-size: 15px;
         }
 
         p {
@@ -886,18 +884,15 @@ button {
 @media screen and (max-width:480px) {
         .logo img {
                 width: 60px;
-
-
         }
 
         .hamburger {
                 display: block;
                 cursor: pointer;
                 position: absolute;
-                top: 0;
-                right: 0;
+                top: 5%;
+                right: 1%;
                 padding: 15px;
-
         }
 
         .ul,
@@ -928,7 +923,7 @@ button {
         .container {
                 width: 90%;
                 margin: 0 auto;
-                padding: 30px 0;
+                padding: 20px 0;
                 height: auto;
         }
 
@@ -936,19 +931,14 @@ button {
                 width: 100%;
         }
 
-        h5 {
-                font-size: 15px;
-        }
-
         h1 {
                 font-size: 26px;
-                line-height: 28px;
                 position: absolute;
                 left: 0;
         }
 
         h2 {
-                font-size: 20px;
+                font-size: 25px;
         }
 
         h3 {
@@ -956,11 +946,15 @@ button {
         }
 
         h4 {
+                font-size: 18px;
+        }
+
+        h5 {
                 font-size: 15px;
         }
 
         p {
-                font-size: 16px;
+                font-size: 12px;
         }
 
         .sec-1 {

@@ -21,14 +21,13 @@
 .f-container {
         width: 100%;
         padding: 2% 0;
-        ;
 }
 
 h5 {
         color: #C97435;
         letter-spacing: 1px;
         word-spacing: 1px;
-        font-size: 20px;
+        font-size: 15px;
 }
 
 h4 {
@@ -45,7 +44,7 @@ h3 {
 }
 
 h2 {
-        font-size: 50px;
+        font-size: 40px;
         color: #C97435;
         letter-spacing: 1px;
         word-spacing: 2px;
@@ -168,10 +167,6 @@ li {
         gap: 40px;
 }
 
-.part-1 {
-        width: 60%;
-}
-
 .first-image {
         position: absolute;
         top: 0;
@@ -198,29 +193,29 @@ li {
         height: 40%;
 }
 
-.part-2 {
-        width: 40%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        position: relative;
-
+.heading {
+        position: absolute;
+        top: 10%;
+        right: 14%;
 }
 
 .line {
         width: 5px;
-        height: 20%;
+        height: 18%;
         position: absolute;
-        right: 50%;
-        top: 35%;
+        right: 20%;
+        top: 38%;
 }
 
 .happy-hour {
-
+        width: 40%;
         height: auto;
         display: flex;
         flex-direction: column;
         gap: 20px;
+        position: absolute;
+        bottom: 10%;
+        right: 0;
 }
 
 
@@ -307,6 +302,11 @@ marquee {
 .shop-now {
         z-index: 0;
         width: 100%;
+        margin-bottom: -5%;
+}
+
+.item img {
+        padding-right: 10px;
 }
 
 /* section-4 */
@@ -482,6 +482,7 @@ input {
         border: solid 1px #FFDBB8;
         font-family: 'Jost', sans-serif;
         font-size: 15px;
+        color:#C97435;
 }
 
 
@@ -628,17 +629,20 @@ button {
         }
 
         h1 {
-                font-size: 31px;
-                line-height: 32px;
+                font-size: 45px;
+                line-height: 45px;
         }
 
         h2 {
-                font-size: 22px;
-                margin-bottom: 40px;
+                font-size: 35px;
         }
 
         h3 {
                 font-size: 20px;
+        }
+
+        h4 {
+                font-size: 19px;
         }
 
         h5 {
@@ -677,14 +681,19 @@ button {
         }
 
         .line {
-                height: 30%;
-                right: 50%;
-                top: 20%;
+                height: 20%;
+                right: 20%;
+                top: 30%;
         }
 
         .font-round {
                 width: 29%;
                 left: 0;
+        }
+
+        .happy-hour {
+                position: absolute;
+                bottom: 10%;
         }
 
         /* section-2 */
@@ -790,7 +799,7 @@ button {
         .container {
                 width: 90%;
                 margin: 0 auto;
-                padding:20px 0;
+                padding: 20px 0;
                 height: auto;
         }
 
@@ -798,6 +807,7 @@ button {
                 width: 100%;
         }
 
+        /* navigation */
         .logo img {
                 width: 60px;
         }
@@ -806,8 +816,8 @@ button {
                 display: block;
                 cursor: pointer;
                 position: absolute;
-                top: 0;
-                right: 0;
+                top: 5%;
+                right: 1%;
                 padding: 15px;
         }
 
@@ -826,6 +836,7 @@ button {
                 left: 0;
                 top: 60px;
                 width: 100%;
+                
         }
 
         .ul.ham_active a:hover {
@@ -835,19 +846,14 @@ button {
         nav.ham_active {
                 height: 350px;
         }
-
-        h5 {
-                font-size: 15px;
-        }
-
         h1 {
-                font-size: 20px;
+                font-size: 26px;
                 line-height: 26px;
         }
 
         h2 {
-                font-size: 20px;
-                margin-bottom: 0;
+                font-size: 25px;
+
         }
 
         h3 {
@@ -855,23 +861,26 @@ button {
         }
 
         h4 {
+                font-size: 18px;
+        }
+        h5 {
                 font-size: 15px;
         }
-
         p {
-                font-size: 15px;
+                font-size: 12px;
         }
 
         .button {
-                width: 180px;
+                width: 130px;
                 height: 50px;
-                padding: 16px 0 0;
-                font-size: 15px;
+                padding: 13px 0;
+                font-size: 13px;
                 text-align: center;
         }
+
         /* section-1 */
         .sec-one {
-                width: 100%;
+
                 height: 1000px;
         }
 
@@ -904,10 +913,8 @@ button {
         }
 
         .heading {
-                width: 50%;
-                margin: 0 auto;
                 position: absolute;
-                top: 50%;
+                top: 55%;
                 left: 10px;
         }
 
@@ -916,9 +923,10 @@ button {
                 position: absolute;
                 bottom: 0;
         }
+
         /* section-2 */
         .sec-two {
-                width: 100%;
+
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -959,6 +967,7 @@ button {
         .paragraph {
                 padding: 0;
         }
+
         /* image-box */
         .image {
                 width: 100%;
@@ -991,11 +1000,22 @@ button {
         .one:hover {
                 cursor: pointer;
         }
+
         /* section-3 */
         .sec-three-headding {
-                width: 90%;
+                align-items: center;
                 margin: 0 auto;
         }
+
+        .item img {
+                margin-bottom: 10px;
+        }
+
+        .item {
+                text-align: center;
+
+        }
+
         /* section-4 */
         .table {
                 margin-bottom: 40px;
@@ -1020,17 +1040,12 @@ button {
                 gap: 10px;
         }
 
-        .sec-four-btn {
-                width: 150px;
-                height: 50px;
-                text-align: center;
-                padding-bottom: 28px;
-                margin-bottom: 20px;
-        }
+
         /* section-5 */
-        .sec-five       {
-                gap:20px;
+        .sec-five {
+                gap: 20px;
         }
+
         .our-menu {
                 flex-direction: column;
                 justify-content: start;
@@ -1045,35 +1060,43 @@ button {
                 justify-content: center;
                 align-items: center;
         }
-        .menu   {
+
+        .menu {
                 flex-direction: column;
-                gap:20px;
+                gap: 20px;
         }
 
         .menu-list {
                 display: flex;
-               
+
                 justify-content: space-between;
         }
-       
+
         .side-bar {
                 display: none;
         }
 
-        .menu-details h4 {
+        .menu-details h5 {
                 color: #C97435;
-                font-size: 14px;
+                font-size: 13px;
         }
 
         .menu-details p {
                 color: #fff;
-                font-size: 17px;
+                font-size: 13px;
         }
+
+        .menu-image img {
+                width: 60px;
+
+        }
+
         /* section-6 */
         .sec-six {
                 width: 100%;
                 margin: 0 auto;
         }
+
         .images-six {
                 display: flex;
                 flex-direction: column;
@@ -1081,6 +1104,7 @@ button {
                 align-items: center;
                 height: auto;
         }
+
         .img-one,
         .img-two,
         .img-three,
@@ -1090,6 +1114,7 @@ button {
                 width: 100%;
                 height: 300px;
         }
+
         /* section-7 */
         .sec-seven {
                 display: flex;
@@ -1097,10 +1122,10 @@ button {
         }
 
         .text-seven {
-               gap:40px;
-                  position: relative;
+                gap: 40px;
+                position: relative;
         }
-        
+
         .img-7 {
                 width: 100%;
                 height: 460px;
@@ -1111,7 +1136,7 @@ button {
         }
 
         .line-7 {
-               display: none;
+                display: none;
         }
 
         /* section-8 */
@@ -1126,7 +1151,7 @@ button {
         }
 
         input {
-                padding: 10px 57px 10px 30px;
+                padding: 5px 63px 5px 20px;
         }
 
         .email-box {
@@ -1138,7 +1163,12 @@ button {
                 padding: 10px 23px 15px 23px;
                 font-size: 12px;
         }
+
         /* last-footer */
+        .line-10 {
+                padding: 0;
+        }
+
         .line-10-1,
         .line-10-3 {
                 width: 110px;
