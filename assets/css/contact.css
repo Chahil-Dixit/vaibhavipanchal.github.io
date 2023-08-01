@@ -484,12 +484,11 @@ textarea {
                 font-size: 50px;
                 position: absolute;
                 left: 45%;
+                top:2%;
                 z-index: 4;
         }
-
         h2 {
                 font-size: 35px;
-
         }
 
         h3 {
@@ -528,7 +527,7 @@ textarea {
                 top: 36%;
                 left: 37%;
                 width: 30%;
-                height: 50%;
+                height: 44%;
                 z-index: 5;
 
         }
@@ -539,7 +538,11 @@ textarea {
                 top: 24%;
                 z-index: 4;
         }
-
+        .line-1 {
+                position: absolute;
+                right:0;
+                width:25%;
+        }
         .sec-1 p {
                 position: absolute;
                 bottom: 27%;
@@ -677,6 +680,7 @@ textarea {
                 font-size: 26px;
                 position: absolute;
                 left: 0;
+                top:0;
         }
 
         h2 {
@@ -695,7 +699,7 @@ textarea {
                 font-size: 15px;
         }
         p {
-                font-size: 12px;
+                font-size: 15px;
         }
         .button {
                 width: 130px;

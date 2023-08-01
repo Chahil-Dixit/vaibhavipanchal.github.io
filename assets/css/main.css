@@ -760,7 +760,7 @@ button {
         .line-7 {
                 height: 18%;
                 position: absolute;
-                left: 48%;
+                left: 80%;
                 top: 12%;
         }
 
@@ -860,8 +860,6 @@ button {
 
         nav.ham_active {
                 height: 350px;
-                
-                
         }
 
         h1 {
